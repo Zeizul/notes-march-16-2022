@@ -25,3 +25,28 @@ say i gets i+3
 say i gets updated to i+3
 or i is incremented by 3
 
+parseFloat("abc") is a NaN, stands for not a number
+
+=== is not in java
+x === y means x and y refer to the same memory location
+x == y the values happen to be the same
+
+In java: x == y <===> JS ===
+x.equals(y) <===> JS ===
+
+if (x == "2") or if (x.equals("2"))
+JS's x == "3" <===> Java's x.equals("3"
+
+if (32) <=== if (true)
+if (0) <===> if (false)
+if ("abc") <===> if (true)
+if ("") <===> if (false)
+
+<script>
+let sum =0;
+for(let i=1; i<= 100; i++)
+  sum+=i;
+document.write("The sum of 1st 100 integers =" + sum);
+console.log("The sum of 1st 100 integers =" + sum);
+</script>
+save as html file
